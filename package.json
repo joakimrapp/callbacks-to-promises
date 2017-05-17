@@ -1,6 +1,6 @@
 {
   "name": "@jrapp/callbacks-to-promises",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Requires something, scans for callbacks and turns them into promises",
   "main": "./src/index.js",
   "scripts": {
