@@ -1,4 +1,4 @@
-require( '../../../helpers/unit.js' )( ( index ) => ( {
+require( '@jrapp/node-project-setup' ).testing.file( './test/file' )( ( index ) => ( {
 	fs: index.fs
 } ) )
 	.it( 'should convert fs callbacks to promises', ( assert, index, { fs } ) => fs.readdir( __dirname )
